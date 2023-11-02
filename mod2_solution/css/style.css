@@ -19,8 +19,9 @@
 	top:0;
 	right:0;
 	margin: 0%;
-	padding: 1%;
-    font-size: 130%;
+	padding: 0%;
+  width: 30%;
+  font-size: 130%;
 	}
 	#first{
 		background-color: #ff6347;
@@ -29,6 +30,7 @@
 	#second{
    		background-color: #ff0000;
    		color: #ffffff;
+      text-shadow: 1px 1px #000000;
 	}
 	#third{
 		background-color: #ffeb47;
@@ -38,14 +40,16 @@
 	width: 100%;
 }
 .container{
-	margin: 2%;
+	margin: 1% 1% 0% 1%;
 	position: relative;
+
 }
 .text{
-	background-color: #787878;
+	background-color: #b4b4b4;
 	border: 1px solid #000000;
 	height: 155px;
 	padding: 5% 1% 0% 1%;
+  
 	overflow: auto;
 }
 
